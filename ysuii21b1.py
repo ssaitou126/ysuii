@@ -26,7 +26,7 @@ def funcDraw(s,titl):
     fig.add_trace(go.Scatter(x=xaxs,y=ygrf,name=f'{titl}'),row=1,col=1)
     fig.add_trace(go.Violin(y=ygrf, box_visible=True, line_color='blue',meanline_visible=True, fillcolor='deepskyblue', opacity=0.6,name=f'{titl}'),row=1,col=2)
     fig.update_xaxes(rangeslider={"visible":True})
-    fig.show()
+    fig.show(renderer='browser')
 
 # ラジオボタン設定
 mysel = st.radio(' ',(
