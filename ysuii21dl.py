@@ -61,7 +61,7 @@ st.write('')
 st.write('')
 st.write('')
 # 外部リンク設定
-link1 = '[Link to　→　AyuZy](https://sites.google.com/view/ayuzy)'
+link1 = '[AyuZyのホームページ](https://sites.google.com/view/ayuzy)'
 st.markdown(link1,unsafe_allow_html=True)
 
 
